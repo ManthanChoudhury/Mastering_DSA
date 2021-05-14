@@ -36,7 +36,8 @@ ll max_sub_array(int arr[], int n, int k)
         max_prefix_sum = max(curr_perfix_sum, max_prefix_sum);
     }
     ll totalsum = curr_perfix_sum;
-    for (size_t i = 0; i < n; i++)
+    // reverse for suffix
+    for (size_t i = n-i; i =>0 n; i---)
     {
         curr_sufix_sum = curr_sufix_sum + arr[i];
         max_suffix_sum = max(curr_sufix_sum, max_suffix_sum);
