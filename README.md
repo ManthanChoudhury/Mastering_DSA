@@ -1,4 +1,4 @@
-# 100_days_coding
+# Mastering DSA
  very noob start to CP(C++)
  
  ## Flow chart
